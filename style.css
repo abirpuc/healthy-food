@@ -1,6 +1,7 @@
 body{
     font-family: 'Playfair Display', serif;
     font-family: 'Roboto Slab', serif;
+    margin: 0;
 }
 
 .flexible-container{
@@ -11,8 +12,14 @@ body{
     margin: 30px 100px 30px 100px;
 }
 
+#first-section h1{
+    font-weight: 900;
+}
 .half-width{
     width: 50%;
+}
+a{
+    margin-bottom: 300px;
 }
 #mean-img{
     width: 100%;
@@ -24,10 +31,11 @@ body{
 .link-btn{
     text-decoration: none;
     color:white;
-    background-image: linear-gradient(to right, blue,#4747e7cb);
+    background-image: linear-gradient(to right, #4747e7cb,blue);
     padding : 10px 20px;
     border-radius: 20px;
     margin-top: 100px;
+    box-shadow: 5px 5px 50px #4747e7cb;
 }
 
 #female-img{
@@ -37,20 +45,85 @@ body{
     background-image: url(img/bg_img/2.jpg);
     background-repeat: no-repeat;
     padding-top: 80px;
+    height: 100%;
 }
 #about-me{
     padding:150px;
 }
-
-#my-recipies{
+.recipies{
+    align-items: center;
+}
+.recipies-item{
+    margin-top: 100px;
+    margin-left: 400px;
     width: 40%;
-    margin-left: 40%;
+    justify-content: center;
+    text-align: center;
+}
+#cart{
+    margin-left: 80px;
 }
 
-.food-item{
-    display: flex;
-    width: 50%;
+.box{
+    margin: 20px;
+    width:50%;
+    padding: 20px;
+    border: none solid black;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 20px
 }
-.food-item img{
-    width:100%;
+
+.box-img{
+    width: 100%;
+    height: 300px;
+}
+.recipie-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#follower-section{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 20px;
+    border: none solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 10px 10px 50px gray;
+}
+
+.follower-item{
+    width: 30%;
+    margin-left: 100px;
+    padding-right: 0px;
+}
+.follower-item h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.follower-item h5{
+    margin-top: 0px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    height: 250px;
+    margin-top: 100px;
+}
+footer h2{
+    padding: 50px 0 20px 0;
+    word-spacing: 10px;
+}
+#eat{
+    color:orangered;
+}
+#fresh{
+    color: gray
+}
+footer p{
+    color: #e0d2d2d3;
+    padding-top: 0;
 }
